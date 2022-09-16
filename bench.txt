@@ -1,0 +1,46 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/bytedance/sonic/asmdemo
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkFloat64-12    	780706660	         1.482 ns/op
+BenchmarkFloat64-12    	803517144	         1.523 ns/op
+BenchmarkFloat64-12    	800501200	         1.500 ns/op
+BenchmarkFloat64-12    	791371694	         1.473 ns/op
+BenchmarkFloat64-12    	808326974	         1.484 ns/op
+BenchmarkFloat64-12    	806110608	         1.489 ns/op
+BenchmarkFloat64-12    	801185438	         1.471 ns/op
+BenchmarkFloat64-12    	809247338	         1.483 ns/op
+BenchmarkFloat64-12    	808080524	         1.464 ns/op
+BenchmarkFloat64-12    	814582945	         1.465 ns/op
+BenchmarkFloat32-12    	283751096	         4.359 ns/op
+BenchmarkFloat32-12    	268892883	         4.362 ns/op
+BenchmarkFloat32-12    	272760853	         4.319 ns/op
+BenchmarkFloat32-12    	282831973	         4.272 ns/op
+BenchmarkFloat32-12    	279860628	         4.299 ns/op
+BenchmarkFloat32-12    	283558212	         4.340 ns/op
+BenchmarkFloat32-12    	283052344	         4.319 ns/op
+BenchmarkFloat32-12    	279310729	         4.385 ns/op
+BenchmarkFloat32-12    	286014615	         4.228 ns/op
+BenchmarkFloat32-12    	278582935	         4.275 ns/op
+BenchmarkInt32-12      	277917633	         4.292 ns/op
+BenchmarkInt32-12      	281416086	         4.265 ns/op
+BenchmarkInt32-12      	281717002	         4.257 ns/op
+BenchmarkInt32-12      	273574069	         4.213 ns/op
+BenchmarkInt32-12      	282846765	         4.282 ns/op
+BenchmarkInt32-12      	278662360	         4.271 ns/op
+BenchmarkInt32-12      	279688438	         4.298 ns/op
+BenchmarkInt32-12      	278695216	         4.267 ns/op
+BenchmarkInt32-12      	276657702	         4.249 ns/op
+BenchmarkInt32-12      	282083826	         4.228 ns/op
+BenchmarkInt64-12      	822139593	         1.520 ns/op
+BenchmarkInt64-12      	794716690	         1.523 ns/op
+BenchmarkInt64-12      	803581105	         1.502 ns/op
+BenchmarkInt64-12      	779303318	         1.499 ns/op
+BenchmarkInt64-12      	774959292	         1.501 ns/op
+BenchmarkInt64-12      	804674245	         1.493 ns/op
+BenchmarkInt64-12      	819018286	         1.501 ns/op
+BenchmarkInt64-12      	798145004	         1.535 ns/op
+BenchmarkInt64-12      	772400462	         1.497 ns/op
+BenchmarkInt64-12      	793188079	         1.508 ns/op
+PASS
+ok  	github.com/bytedance/sonic/asmdemo	61.689s
